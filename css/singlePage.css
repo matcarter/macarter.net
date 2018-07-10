@@ -9,6 +9,8 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 ul {
     list-style-type: none;
