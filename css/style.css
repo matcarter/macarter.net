@@ -1,0 +1,110 @@
+/* Button Styling */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 30px;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* Projects Styling */
+.project-column {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  color: black;
+  width: 33.33%;
+  height: inherit;
+  padding-right: 1px;
+  padding-left: 1px;
+  overflow: hidden;
+}
+.project-column:hover {
+    transition: background-color 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  /*margin-bottom: 2rem;*/
+  font-weight: 300; 
+}
+
+h1 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem; 
+}
+
+h2 {
+  font-size: 3.0rem;
+  line-height: 1.35;
+  letter-spacing: -.1rem; 
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem; 
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem; 
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0rem; 
+}
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  letter-spacing: 0; 
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 {
+    font-size: 4.2rem; 
+	}
+
+  h2 {
+    font-size: 3.6rem; 
+	}
+
+  h3 {
+    font-size: 3.0rem; 
+	}
+
+  h4 {
+    font-size: 2.4rem; 
+	}
+
+  h5 {
+    font-size: 1.5rem; 
+	}
+
+  h6 {
+    font-size: 1rem; 
+} 
+}
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
