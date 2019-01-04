@@ -1,6 +1,6 @@
 /* Button Styling */
 .btn {
-  background-color: DodgerBlue;
+  background-color: white;
   border: none;
   color: white;
   padding: 12px 30px;
@@ -24,10 +24,25 @@
   padding-right: 1px;
   padding-left: 1px;
   overflow: hidden;
+  position: relative;
 }
 .project-column:hover {
     transition: background-color 0.3s ease;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Education Styling */
+.education-column {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  color: black;
+  width: 50%;
+  height: inherit;
+  padding-right: 1px;
+  padding-left: 1px;
+  overflow: hidden;
+  position: relative;
 }
 
 
