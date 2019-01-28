@@ -14,7 +14,7 @@
 }
 
 /* Projects Styling */
-.project-column {
+.project-column, .project-column-holder {
   display: table-cell;
   vertical-align: top;
   text-align: center;
