@@ -45,7 +45,23 @@
   position: relative;
 }
 
-/* Experience Styling */
+h4.education-college {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem; 
+}
+
+h5.education-quarter {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0rem; 
+}
+
+h6.education-class {
+  font-size: 1.0rem;
+  line-height: 1.7;
+  letter-spacing: 0; 
+}
 
 
 
@@ -116,8 +132,9 @@ h6 {
 
   h6 {
     font-size: 1rem; 
-} 
+  } 
 }
+
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container:after,
