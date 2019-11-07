@@ -1,16 +1,24 @@
 /* Button Styling */
-.btn {
-  background-color: white;
-  border: none;
-  color: white;
+.resume-btn {
   padding: 12px 30px;
   cursor: pointer;
-  font-size: 20px;
-  margin: 30px;
 }
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+
+.button a {
+  display: block;
+  height: 50px;
+  width: 200px;
+  background: #00b7ea;
+  
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Projects Styling */
